@@ -18,7 +18,7 @@ class SearchPlacesScreen extends StatefulWidget {
   State<SearchPlacesScreen> createState() => _SearchPlacesScreenState();
 }
 
-const kGoogleApiKey = 'AIzaSyBVMbamo9bc6c0v7Ne5NMnibSCN8iprAP0';
+const kGoogleApiKey = '';
 final homeScaffoldKey = GlobalKey<ScaffoldState>();
 
 class _SearchPlacesScreenState extends State<SearchPlacesScreen> {
@@ -35,7 +35,7 @@ class _SearchPlacesScreenState extends State<SearchPlacesScreen> {
   Future<void> displayPrediction(
       Prediction p, ScaffoldState? currentState) async {
     GoogleMapsPlaces places = GoogleMapsPlaces(
-        apiKey: "AIzaSyBVMbamo9bc6c0v7Ne5NMnibSCN8iprAP0",
+        apiKey: "",
         apiHeaders: await const GoogleApiHeaders().getHeaders());
 
     PlacesDetailsResponse detail = await places.getDetailsByPlaceId(p.placeId!);
@@ -152,7 +152,7 @@ class _SearchPlacesScreenState extends State<SearchPlacesScreen> {
   Future<void> _handlePressButton() async {
     Prediction? p = await PlacesAutocomplete.show(
         context: context,
-        apiKey: kGoogleApiKey,
+        apiKey: "",
         onError: onError,
         mode: _mode,
         language: 'en',
