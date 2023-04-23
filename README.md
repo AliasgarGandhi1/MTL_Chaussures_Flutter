@@ -1,16 +1,27 @@
-# mtl_chassures
+MTL CHAUSSURES
 
-A new Flutter project.
+Group Members working on the project:
+● Chintan Patel
+● Aliasgar Gandhi
+● Rohit Saini
 
-## Getting Started
+AIM OF THE PROJECT:
+  ● The principal objective of working on MTL Chaussures is to highlight the fashion versatility of shoe fashion in the Metropolitan City of Quebec, Montreal.
+  ● Living in Montreal for one year clearly showed us the unique and meaningful fashion sense in people.
+  ● Therefore, we decided to manage all local in-demand shoes and showcase them on a single platform.
+  ● Thereby, came in existence the MTL Chaussures, Guidance to the Shoe geeks.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+FUNCTIONAL REQUIREMENTS:
+  ● Google maps for locating a specific location of a client.
+  ● Mail communication with the client for
+    ○ account confirmation
+    ○ Password Reset
+    ○ Order Tracking and updates
+    ○ Recent offers and hot deals
+  ● Privacy of Client’s Personal Info
+  ● API for retrieving the best offers and deals from in-demand brands
+  ● Realtime Database that can handle overflow client data.
+NON - FUNCTIONAL REQUIREMENTS:
+  ● User-friendly UI
+  ● Minimalistic and on-point design
+  ● Manage and keep records of order history for future reference needed by clients.
