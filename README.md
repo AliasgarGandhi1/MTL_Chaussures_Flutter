@@ -3,7 +3,7 @@ MTL CHAUSSURES
 Group Members working on the project:
 
 
-● Chintan Patel \n
+● Chintan Patel </br>
 ● Aliasgar Gandhi
 
 ● Rohit Saini
